@@ -1,0 +1,8 @@
+# DNS-Reverse-Lookup-Service
+
+This was an assignment for my course in computing. We implemented a DNS Reverse lookup service which when, provided the website could find the IP for any given website. This was acheived by understanding how DNS works, sending requests to the root servers and decoding it iteratively instead of recursively. The program sends until it hits a CNAME or request not found, which indicates invalid website.
+
+TO RUN:
+
+1. Go into /dnslookup.
+2. Run DNSLookupService.java with all the dependencies.
